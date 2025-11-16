@@ -1,52 +1,85 @@
-h1 {
-    font-size: 24pt;
-    color: red;
-    text-decoration: underline;
-    font-family: tahoma, helvetica, sans-serif;
-}
-em {
-    font-style: normal;
-    color: red;
-    background-color: yellow;
-    font-weight: bold;
-}
-a:hover {
-    text-decoration: none;
-}
-li:first-child {
-    border: thick solid green;
-    margin-bottom: 1em;
-    margin-top: 1em;
-    padding: 1ex;
-    width: 40%;
-}
-p.centered {
-text-indent: 3mm;
- text-align: center;
- text-emphasis-color: red;
- text-emphasis-style: "*";
- text-shadow: 2px 2px yellow;
-}
-[cite_start].center-icon { /* [cite: 26] */
-    text-align: center; [cite_start]/* [cite: 27] */
-}
 
-[cite_start].center-icon img { /* [cite: 22] */
-    display: inline-block; [cite_start]/* [cite: 24] */
-    margin: 0 auto; [cite_start]/* [cite: 25] */
+
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+  margin: 16px;
+  background: #0f1113;
+  color: #e6eef8;
+}
+h1, h2 {
+  color: #ff6b6b;
+  text-decoration: underline;
+  font-size: 28px;
+  text-align: left;
+}
+.centered {
+  text-align: center;
+  margin: 8px 0 16px 0;
+}
+.centered em {
+  font-style: normal;
+  font-weight: bold;
+  color: #ffd166;
+  display: inline-block;
+}
+.center-icon {
+  text-align: center;
+  margin-bottom: 18px;
+}
+.center-icon img {
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 6px;
 }
 ol {
-    border: thick solid purple; [cite_start]/* [cite: 32] */
-    margin-bottom: 1em; [cite_start]/* [cite: 33] */
-    margin-top: 1em; [cite_start]/* [cite: 34] */
-    padding: 4ex; [cite_start]/* [cite: 35] */
-    width: 50%; [cite_start]/* [cite: 36] */
-    background-color: aquamarine; [cite_start]/* [cite: 37] */
+  border: thick solid purple;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  padding: 4ex;
+  width: 60%;
+  background-color: aquamarine;
+  color: #000;
 }
-[cite_start]table th { /* [cite: 40] */
-    background-color: orange; [cite_start]/* [cite: 41] */
-    color: black; [cite_start]/* [cite: 42] */
-    padding: 8px; [cite_start]/* [cite: 43] */
-    text-align: center; [cite_start]/* [cite: 44] */
-    font-weight: bold; [cite_start]/* [cite: 45] */
+ul {
+  margin-left: 1.2em;
 }
+.bee-image {
+  text-align: center;
+  margin: 12px 0;
+}
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 12px 0;
+}
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+table th {
+  background-color: orange;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+pre {
+  background: rgba(255,255,255,0.04);
+  padding: 10px;
+  border-radius: 6px;
+  width: 80%;
+}
+a {
+  color: #8ecae6;
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: none;
+}
+@media (max-width: 600px) {
+  ol, table, pre {
+    width: 100%;
+    padding: 12px;
+  }
+}
+
