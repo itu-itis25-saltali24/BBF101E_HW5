@@ -10,3 +10,17 @@ em {
     background-color: yellow;
     font-weight: bold;
 }
+a:hover {
+    text-decoration: none;
+}
+li:first-child {
+    border: thick solid green;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    padding: 1ex;
+    width: 40%;
+}
+p.centered {
+    text-indent: 3mm;
+    text-align: center;
+}
