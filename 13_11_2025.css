@@ -11,11 +11,10 @@ h1 {
   text-decoration: underline;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 h2 {
-    color: black;            
-    text-decoration: underline; 
-    font-size: 18pt;         
+    color: black;              
+    text-decoration: underline;  
+    font-size: 16pt;             
     font-family: tahoma, helvetica, sans-serif;
 }
 
