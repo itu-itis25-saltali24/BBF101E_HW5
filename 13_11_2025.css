@@ -23,8 +23,8 @@ html, body {
 p.centered {
     text-indent: 3mm;
     text-align: center;
-    text-emphasis-color: transparent;
-    text-emphasis-style: "none";
+    text-emphasis-color: red;
+    text-emphasis-style: "*";
     text-shadow: 2px 2px yellow;
 }
 
