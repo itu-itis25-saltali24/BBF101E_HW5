@@ -21,11 +21,11 @@ li:first-child {
     width: 40%;
 }
 p.centered {
-    text-indent: 3mm;
-    text-align: center;
-    text-emphasis-color: red; [cite_start]/* [cite: 15] */
-    text-emphasis-style: "*"; [cite_start]/* [cite: 16] */
-    text-shadow: 2px 2px yellow; [cite_start]/* [cite: 17] */
+text-indent: 3mm;
+ text-align: center;
+ text-emphasis-color: red;
+ text-emphasis-style: "*";
+ text-shadow: 2px 2px yellow;
 }
 [cite_start].center-icon { /* [cite: 26] */
     text-align: center; [cite_start]/* [cite: 27] */
