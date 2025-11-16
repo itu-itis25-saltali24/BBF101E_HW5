@@ -13,7 +13,10 @@ h1 {
 }
 
 h2 {
-  color: #ff6b6b;
+    color: black;            
+    text-decoration: underline; 
+    font-size: 18pt;         
+    font-family: tahoma, helvetica, sans-serif;
 }
 
 p.centered {
