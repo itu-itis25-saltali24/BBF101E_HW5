@@ -20,6 +20,14 @@ function keydownFunction(){
             function keyupFunction() {
     document.getElementById("name").style.backgroundColor = "lightblue";
 }
+            const colors = ["red", "blue", "green", "gray"];
+let colorIndex = 0;
+
+function changeColors() {
+    const btn = document.getElementById("colorBtn");
+    btn.style.backgroundColor = colors[colorIndex];
+    colorIndex = (colorIndex + 1) % colors.length;
+}
 </script>
         <p>Enter your name: <input type="text" id="name" onkeydown="keydownFunction()"
                                 type="text" id="name" onkeyup="keyupFunction()"></p>
