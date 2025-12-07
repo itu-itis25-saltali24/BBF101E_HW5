@@ -29,7 +29,8 @@ function changeColors() {
     colorIndex = (colorIndex + 1) % colors.length;
 }
 </script>
-        <p>Enter your name: <input type="text" id="name" onkeydown="keydownFunction()"
+        <p><button id="colorBtn" onclick="changeColors()">Change Colors!</button>
+            Enter your name: <input type="text" id="name" onkeydown="keydownFunction()"
                                 type="text" id="name" onkeyup="keyupFunction()"></p>
 
     <p class="centered">  
